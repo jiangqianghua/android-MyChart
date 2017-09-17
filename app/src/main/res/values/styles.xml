@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 图表样式 -->
+    <declare-styleable name="JQHChart">
+        <!-- 图表标题-->
+        <attr name="graphTitle" format="string"></attr>
+        <!-- 图表x坐标名字-->
+        <attr name="xAxisName" format="string"></attr>
+        <!-- 图表y坐标名字-->
+        <attr name="yAxisName" format="string"></attr>
+        <!-- 图表坐标文字大小-->
+        <attr name="axisTextSize" format="dimension|integer"></attr>
+        <!-- 图表坐标文字颜色-->
+        <attr name="axisTextColor" format="color|integer"></attr>
+    </declare-styleable>
+</resources>
